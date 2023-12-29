@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRptPopupVoucherDiscount" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRptPopupVoucherDiscount" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRptPopupVoucherDiscount" msprop:Generator_DataSetName="dsRptPopupVoucherDiscount">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptPopupVoucherDiscount" msprop:Generator_UserTableName="rptPopupVoucherDiscount" msprop:Generator_RowDeletedName="rptPopupVoucherDiscountRowDeleted" msprop:Generator_RowChangedName="rptPopupVoucherDiscountRowChanged" msprop:Generator_RowClassName="rptPopupVoucherDiscountRow" msprop:Generator_RowChangingName="rptPopupVoucherDiscountRowChanging" msprop:Generator_RowEvArgName="rptPopupVoucherDiscountRowChangeEvent" msprop:Generator_RowEvHandlerName="rptPopupVoucherDiscountRowChangeEventHandler" msprop:Generator_TableClassName="rptPopupVoucherDiscountDataTable" msprop:Generator_TableVarName="tablerptPopupVoucherDiscount" msprop:Generator_RowDeletingName="rptPopupVoucherDiscountRowDeleting" msprop:Generator_TablePropName="rptPopupVoucherDiscount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEALER_x0020_CODE" msprop:Generator_UserColumnName="DEALER CODE" msprop:Generator_ColumnPropNameInRow="DEALER_CODE" msprop:Generator_ColumnVarNameInTable="columnDEALER_CODE" msprop:Generator_ColumnPropNameInTable="DEALER_CODEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DEALER_x0020_NAME" msprop:Generator_UserColumnName="DEALER NAME" msprop:Generator_ColumnPropNameInRow="DEALER_NAME" msprop:Generator_ColumnVarNameInTable="columnDEALER_NAME" msprop:Generator_ColumnPropNameInTable="DEALER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VIN_x0020_CODE" msprop:Generator_UserColumnName="VIN CODE" msprop:Generator_ColumnPropNameInRow="VIN_CODE" msprop:Generator_ColumnVarNameInTable="columnVIN_CODE" msprop:Generator_ColumnPropNameInTable="VIN_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POLICE_x0020_NO" msprop:Generator_UserColumnName="POLICE NO" msprop:Generator_ColumnPropNameInRow="POLICE_NO" msprop:Generator_ColumnVarNameInTable="columnPOLICE_NO" msprop:Generator_ColumnPropNameInTable="POLICE_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SERVICE_x0020_ADVISOR_x0020_NAME" msprop:Generator_UserColumnName="SERVICE ADVISOR NAME" msprop:Generator_ColumnPropNameInRow="SERVICE_ADVISOR_NAME" msprop:Generator_ColumnVarNameInTable="columnSERVICE_ADVISOR_NAME" msprop:Generator_ColumnPropNameInTable="SERVICE_ADVISOR_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MODEL_x0020_CODE" msprop:Generator_UserColumnName="MODEL CODE" msprop:Generator_ColumnPropNameInRow="MODEL_CODE" msprop:Generator_ColumnVarNameInTable="columnMODEL_CODE" msprop:Generator_ColumnPropNameInTable="MODEL_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MODEL_NAME" msprop:Generator_UserColumnName="MODEL_NAME" msprop:Generator_ColumnPropNameInRow="MODEL_NAME" msprop:Generator_ColumnVarNameInTable="columnMODEL_NAME" msprop:Generator_ColumnPropNameInTable="MODEL_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INV_x0020_DOC_x0020_NO" msprop:Generator_UserColumnName="INV DOC NO" msprop:Generator_ColumnPropNameInRow="INV_DOC_NO" msprop:Generator_ColumnVarNameInTable="columnINV_DOC_NO" msprop:Generator_ColumnPropNameInTable="INV_DOC_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="INVOICE_x0020_DATE" msprop:Generator_UserColumnName="INVOICE DATE" msprop:Generator_ColumnPropNameInRow="INVOICE_DATE" msprop:Generator_ColumnVarNameInTable="columnINVOICE_DATE" msprop:Generator_ColumnPropNameInTable="INVOICE_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="WO_x0020_DOC_x0020_NO" msprop:Generator_UserColumnName="WO DOC NO" msprop:Generator_ColumnPropNameInRow="WO_DOC_NO" msprop:Generator_ColumnVarNameInTable="columnWO_DOC_NO" msprop:Generator_ColumnPropNameInTable="WO_DOC_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WO_x0020_DATE" msprop:Generator_UserColumnName="WO DATE" msprop:Generator_ColumnPropNameInRow="WO_DATE" msprop:Generator_ColumnVarNameInTable="columnWO_DATE" msprop:Generator_ColumnPropNameInTable="WO_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_x0020_SERVICE_x0020_BEFORE_x0020_WO_x0020_DATE" msprop:Generator_UserColumnName="LAST SERVICE BEFORE WO DATE" msprop:Generator_ColumnPropNameInRow="LAST_SERVICE_BEFORE_WO_DATE" msprop:Generator_ColumnVarNameInTable="columnLAST_SERVICE_BEFORE_WO_DATE" msprop:Generator_ColumnPropNameInTable="LAST_SERVICE_BEFORE_WO_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="KM" msprop:Generator_UserColumnName="KM" msprop:Generator_ColumnPropNameInRow="KM" msprop:Generator_ColumnVarNameInTable="columnKM" msprop:Generator_ColumnPropNameInTable="KMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VOUCHER_x0020_DATE" msprop:Generator_UserColumnName="VOUCHER DATE" msprop:Generator_ColumnPropNameInRow="VOUCHER_DATE" msprop:Generator_ColumnVarNameInTable="columnVOUCHER_DATE" msprop:Generator_ColumnPropNameInTable="VOUCHER_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="VOUCHER_x0020_DESCRIPTION" msprop:Generator_UserColumnName="VOUCHER DESCRIPTION" msprop:Generator_ColumnPropNameInRow="VOUCHER_DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnVOUCHER_DESCRIPTION" msprop:Generator_ColumnPropNameInTable="VOUCHER_DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VOUCHER_x0020_VALID_x0020_UNTIL_x0020__x0028_DATE_x0029_" msprop:Generator_UserColumnName="VOUCHER VALID UNTIL (DATE)" msprop:Generator_ColumnPropNameInRow="_VOUCHER_VALID_UNTIL__DATE_" msprop:Generator_ColumnVarNameInTable="_columnVOUCHER_VALID_UNTIL__DATE_" msprop:Generator_ColumnPropNameInTable="_VOUCHER_VALID_UNTIL__DATE_Column" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CUSTOMER_x0020_NAME" msprop:Generator_UserColumnName="CUSTOMER NAME" msprop:Generator_ColumnPropNameInRow="CUSTOMER_NAME" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_NAME" msprop:Generator_ColumnPropNameInTable="CUSTOMER_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="USER_x0020_PHONE" msprop:Generator_UserColumnName="USER PHONE" msprop:Generator_ColumnPropNameInRow="USER_PHONE" msprop:Generator_ColumnVarNameInTable="columnUSER_PHONE" msprop:Generator_ColumnPropNameInTable="USER_PHONEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

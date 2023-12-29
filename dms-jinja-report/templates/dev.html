@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',path='/style/styles.css') }}">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <table class="table table-bordered" border = {{ borders }}> <!-- Table Generate -->
+            <tr>
+                <td><img src=""></td>
+                <td class="company-title" colspan = 4>Account Receivable Aging Detail
+                    <table class="table table-bordered" id="header-profile">
+                        <tr>
+                            <td>Company</td>
+                            <td><div>:</div></td>
+                            <td>Indomobil Sukses Internasional Tbk</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><div>:</div></td>
+                            <td>WISMA INDOMOBIL 1 LT.6 JL MT. HARYONO KAV 8</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>RT.009 RW.011 BIDARA CINA JATINEGARA</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>JAKARTA TIMUR DKI JAKARTA 13330</td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan = 5>
+                    <table class="table table-bordered" id="header-profile">
+                        <tr>
+                            <td>Print date</td>
+                            <td><div>:</div></td>
+                            <td>20-10-2023</td>
+                        </tr>
+                        <tr>
+                            <td>Period</td>
+                            <td><div>:</div></td>
+                            <td>March 2022</td>
+                        </tr>
+                        <tr>
+                            <td>A/R Type</td>
+                            <td><div>:</div></td>
+                            <td>All</td>
+                        </tr>
+                        <tr>
+                            <td>Profit center</td>
+                            <td><div>:</div></td>
+                            <td>All</td>
+                        </tr>
+                        <tr>
+                            <td>Aging amount</td>
+                            <td><div>:</div></td>
+                            <td>Base Amount</td>
+                        </tr>
+                        <tr>
+                            <td>Print by</td>
+                            <td><div>:</div></td>
+                            <td>Levina Anora</td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                {{ data | safe }}
+            <tr>
+        </table>
+        <script src="" async defer></script>
+    </body>
+</html>

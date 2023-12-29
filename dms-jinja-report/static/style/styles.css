@@ -1,0 +1,169 @@
+body {
+    display: block;
+    margin: 8px;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+#ReportDiv {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+tr.table-header td {
+    background-color: #6495ed;
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: 700;
+    padding-left: 2pt;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    padding-right: 2pt;
+    line-height: 1.6;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: fit-content;
+    min-width: 100px;
+    white-space: nowrap;
+}
+
+.report-title div {
+    color: #003158;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: left;
+}
+
+td.header-profile div {
+    font-style: normal;
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: 700;
+    border-collapse: separate;
+    border-spacing: 2px 2px;
+    vertical-align: top;
+    padding-left: 2pt;
+    padding-top: 2pt;
+    padding-right: 2pt;
+    padding-bottom: 2pt;
+    text-align: left;
+}
+
+.logo img {
+    vertical-align: top;
+    object-fit: contain;
+    width: 82px;
+}
+
+.logo {
+    width: max-content;
+}
+
+.table-detail td {
+    font-style: normal;
+    font-family: Arial;
+    font-size: 7.5pt;
+    font-weight: 400;
+    color: Black;
+    direction: ltr;
+    writing-mode: lr-tb;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 4pt;
+    padding-top: 4pt;
+    padding-right: 4pt;
+    padding-bottom: 4pt;
+    width: fit-content;
+    min-width: 100px;
+    white-space: nowrap;
+}
+
+.table-detail #group {
+    background-color: #ffc080;
+}
+
+.table-detail #customer-type {
+    background-color: #ffff80;
+}
+
+.table-detail #customer-id {
+    background-color: #d3d3d3;
+}
+
+.table-detail:nth-child(even) #customer-detail-data {
+    background-color: #fffacd;
+    border-color: #ffffff;
+    text-align: right;
+}
+
+.table-detail:nth-child(odd) #customer-detail-data {
+    background-color: #f5deb3;
+    border-color: #ffffff;
+    text-align: right;
+}
+
+.table-detail #total-customer-id {
+    text-align: right;
+    font-weight: bold;
+}
+
+.table-detail #total-customer-id-title {
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-detail #total-customer-type {
+    text-align: right;
+    font-weight: bold;
+    background-color: #ffff80;
+}
+
+.table-detail #total-customer-type-title {
+    text-align: left;
+    font-weight: bold;
+    background-color: #ffff80;
+}
+
+tr.table-detail td#total-group {
+    text-align: right;
+    font-weight: bold;
+    background-color: #ffc080;
+}
+
+tr.table-detail td#total-group-title {
+    text-align: left;
+    font-weight: bold;
+    background-color: #ffc080;
+}
+
+.toggle-image::before {
+    content: url(http://localhost:8000/static/assets/PlusToggle.gif);
+    padding-right: 2pt;
+    cursor: pointer;
+}
+
+.opened .toggle-image::before {
+    content: url(http://localhost:8000/static/assets/MinusToggle.gif);
+    padding-right: 2pt;
+    cursor: pointer;
+}
+
+tr.table-detail#row-customer-type {
+    display: none;
+}
+
+tr.table-detail#row-customer-id {
+    display: none;
+}
+
+tr.table-detail#row-customer-detail-data {
+    display: none;
+}
+
+tr.table-detail#row-total-customer-id-title {
+    display: none;
+}

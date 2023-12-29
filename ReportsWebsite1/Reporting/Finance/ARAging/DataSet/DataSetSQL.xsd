@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet" targetNamespace="http://tempuri.org/DataSet.xsd" xmlns:mstns="http://tempuri.org/DataSet.xsd" xmlns="http://tempuri.org/DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ar_type" type="xs:string" minOccurs="0" />
+              <xs:element name="ar_type_desc" type="xs:string" minOccurs="0" />
+              <xs:element name="ar_group_desc" type="xs:string" minOccurs="0" />
+              <xs:element name="cust_type_desc" type="xs:string" minOccurs="0" />
+              <xs:element name="cust_code" type="xs:string" minOccurs="0" />
+              <xs:element name="customer_name" type="xs:string" minOccurs="0" />
+              <xs:element name="inv_date" type="xs:string" minOccurs="0" />
+              <xs:element name="inv_doc_no" type="xs:string" minOccurs="0" />
+              <xs:element name="inv_due_date" type="xs:string" minOccurs="0" />
+              <xs:element name="begin_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="sales_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="sales_correction_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="pay_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="pay_return_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="pay_correction_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="not_over_due_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="aging1a_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="aging1b_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="aging1c_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="aging1d_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="dn_correction_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="as_of_date_pay_amount" type="xs:string" minOccurs="0" />
+              <xs:element name="remark" type="xs:string" minOccurs="0" />
+              <xs:element name="status" type="xs:string" minOccurs="0" />
+              <xs:element name="aging_day" type="xs:string" minOccurs="0" />
+              <xs:element name="supplier_name" type="xs:string" minOccurs="0" />
+              <xs:element name="cpc_code" type="xs:string" minOccurs="0" />
+              <xs:element name="cpc_description" type="xs:string" minOccurs="0" />
+              <xs:element name="company_name" type="xs:string" minOccurs="0" />
+              <xs:element name="branch_desc" type="xs:string" minOccurs="0" />
+              <xs:element name="comp_address_1" type="xs:string" minOccurs="0" />
+              <xs:element name="comp_address_2" type="xs:string" minOccurs="0" />
+              <xs:element name="comp_address_3" type="xs:string" minOccurs="0" />
+              <xs:element name="comp_city_code" type="xs:string" minOccurs="0" />
+              <xs:element name="comp_zip_code" type="xs:string" minOccurs="0" />
+              <xs:element name="comp_phone_no" type="xs:string" minOccurs="0" />
+              <xs:element name="comp_fax_no" type="xs:string" minOccurs="0" />
+              <xs:element name="emp_name" type="xs:string" minOccurs="0" />
+              <xs:element name="journal_sys_no" type="xs:string" minOccurs="0" />
+              <xs:element name="acc_no" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

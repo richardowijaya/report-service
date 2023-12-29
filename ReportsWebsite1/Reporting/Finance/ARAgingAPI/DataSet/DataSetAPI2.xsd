@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet" targetNamespace="http://tempuri.org/DataSet.xsd" xmlns:mstns="http://tempuri.org/DataSet.xsd" xmlns="http://tempuri.org/DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsARAgingDetailApi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AR_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="AR_TYPE_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="AR_GROUP_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="CUST_TYPE_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="CUST_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CUSTOMER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="INV_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="INV_DOC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="INV_DUE_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="BEGIN_AMOUNT" type="xs:double" minOccurs="0" />
+              <xs:element name="SALES_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="SALES_CORRECTION_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="PAY_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="PAY_RETURN_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="PAY_CORRECTION_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="NOT_OVER_DUE_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING1A_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING1B_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING1C_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING1D_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING2_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING3_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING4_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="DN_CORRECTION_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="AS_OF_DATE_PAY_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="REMARK" type="xs:string" minOccurs="0" />
+              <xs:element name="STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="AGING_DAY" type="xs:string" minOccurs="0" />
+              <xs:element name="SUPPLIER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="CPC_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="CPC_DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="COMPANY_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="BRANCH_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="COMP_ADDRESS_1" type="xs:string" minOccurs="0" />
+              <xs:element name="COMP_ADDRESS_2" type="xs:string" minOccurs="0" />
+              <xs:element name="COMP_ADDRESS_3" type="xs:string" minOccurs="0" />
+              <xs:element name="COMP_CITY_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="COMP_ZIP_CODE" type="xs:string" minOccurs="0" />
+              <xs:element name="COMP_PHONE_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="COMP_FAX_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="JOURNAL_SYS_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="ACC_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
